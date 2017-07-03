@@ -111,7 +111,7 @@ public class HangingItemAction extends GenericAction {
                 .getLocation();
 
         // Ensure there's a block at this location that accepts an attachment
-        if( me.botsko.elixr.BlockUtils.materialMeansBlockDetachment( loc.getBlock().getType() ) ) { return new ChangeResult(
+        if( us.dhmc.elixr.BlockUtils.materialMeansBlockDetachment( loc.getBlock().getType() ) ) { return new ChangeResult(
                 ChangeResultType.SKIPPED, null ); }
 
         try {
